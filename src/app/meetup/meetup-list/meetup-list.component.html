@@ -1,0 +1,4 @@
+<div>
+    <canvas *ngFor="let meetup of list" id='{{meetup.name}}'></canvas>
+    <app-meetup *ngFor="let meetup of list" [meetup]="meetup"></app-meetup>
+</div>
